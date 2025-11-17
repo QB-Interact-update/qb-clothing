@@ -545,16 +545,12 @@ local function ChangeVariation(data)
         end
      elseif clothingCategory == "eye_color" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
+            
             SetPedEyeColor(ped, item)
             skinData["eye_color"].item = item
         end
     elseif clothingCategory == "moles" then
         if type == "item" then
-            -- print(item)
-            -- SetPedHeadOverlay(ped, 3, item, 1.0)
-            -- print(item)
             SetPedHeadOverlay(ped, 9, item, 1.0)
             skinData["moles"].item = item
         elseif type == "texture" then
@@ -583,8 +579,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "nose_2" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 2, newitem)
@@ -592,8 +586,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "nose_3" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 3, newitem)
@@ -601,8 +593,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "nose_4" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 4, newitem)
@@ -610,8 +600,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "nose_5" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 5, newitem)
@@ -619,8 +607,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "eyebrown_high" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 6, newitem)
@@ -628,8 +614,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "eyebrown_forward" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 7, newitem)
@@ -637,8 +621,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "cheek_1" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 8, newitem)
@@ -646,8 +628,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "cheek_2" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 9, newitem)
@@ -655,8 +635,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "cheek_3" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 10, newitem)
@@ -664,8 +642,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "eye_opening" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 11, newitem)
@@ -673,8 +649,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "lips_thickness" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 12, newitem)
@@ -682,8 +656,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "jaw_bone_width" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 13, newitem)
@@ -691,17 +663,12 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "jaw_bone_back_lenght" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
-            -- print(newitem)
             SetPedFaceFeature(ped, 14, newitem)
             skinData["jaw_bone_back_lenght"].item = item
         end
     elseif clothingCategory == "chimp_bone_lowering" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 15, newitem)
@@ -709,8 +676,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "chimp_bone_lenght" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 16, newitem)
@@ -718,8 +683,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "chimp_bone_width" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 17, newitem)
@@ -727,8 +690,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "chimp_hole" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 18, newitem)
@@ -736,8 +697,6 @@ local function ChangeVariation(data)
         end
     elseif clothingCategory == "neck_thikness" then
         if type == "item" then
-            -- SetPedEyeColor(ped, 12, item, 0, 2)
-            -- skinData["arms"].item = item
             local newitem = (item / 10)
             -- print(newitem)
             SetPedFaceFeature(ped, 19, newitem)
@@ -1625,46 +1584,45 @@ Citizen.CreateThread(function()
 end)
 -- We define this as function so we don't get a nil value for job. The function triggers when the player is loaded :)
 function loadStores()
-    if Config.UseTarget then
-        CreateThread(function()
-            for k, v in pairs(Config.Stores) do
-                local opts = {}
-                if v.shopType == 'barber' then
-                    opts = {
-                        action = function()
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "hair", label = Lang:t("menu.hair"), selected = true},
-                            })
-                        end,
-                        icon = "fas fa-chair-office",
-                        label = Lang:t("store.barber"),
-                    }
-                elseif v.shopType == 'clothing' then
-                    opts = {
-                        action = function()
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "clothing", label = Lang:t("menu.character"), selected = true},
-                                {menu = "accessoires", label = Lang:t("menu.accessoires"), selected = false}
-                            })
-                        end,
-                        icon = "fas fa-clothes-hanger",
-                        label = Lang:t("store.clothing"),
-                    }
-                elseif v.shopType == 'surgeon' then
-                    opts = {
-                        action = function()
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "character", label = Lang:t("menu.features"), selected = true},
-                            })
-                        end,
-                        icon = "fas fa-scalpel",
-                        label = Lang:t("store.surgeon"),
-                    }
-                end
-
+    CreateThread(function()
+        for k, v in pairs(Config.Stores) do
+            local opts = {}
+            if v.shopType == 'barber' then
+                opts = {
+                    action = function()
+                        customCamLocation = nil
+                        openMenu({
+                            {menu = "hair", label = Lang:t("menu.hair"), selected = true},
+                        })
+                    end,
+                    icon = "fas fa-chair-office",
+                    label = Lang:t("store.barber"),
+                }
+            elseif v.shopType == 'clothing' then
+                opts = {
+                    action = function()
+                        customCamLocation = nil
+                        openMenu({
+                            {menu = "clothing", label = Lang:t("menu.character"), selected = true},
+                            {menu = "accessoires", label = Lang:t("menu.accessoires"), selected = false}
+                        })
+                    end,
+                    icon = "fas fa-clothes-hanger",
+                    label = Lang:t("store.clothing"),
+                }
+            elseif v.shopType == 'surgeon' then
+                opts = {
+                    action = function()
+                        customCamLocation = nil
+                        openMenu({
+                            {menu = "character", label = Lang:t("menu.features"), selected = true},
+                        })
+                    end,
+                    icon = "fas fa-scalpel",
+                    label = Lang:t("store.surgeon"),
+                }
+            end
+            if Config.UseTarget then
                 exports['qb-target']:AddBoxZone(v.shopType .. k, v.coords, v.length, v.width, {
                     name = v.shopType .. k,
                     debugPoly = false,
@@ -1681,23 +1639,41 @@ function loadStores()
                     },
                     distance = 3
                 })
+            else
+                exports['qb-interact']:addInteractZone({
+                    name = v.shopType .. k,
+                    coords = v.coords,
+                    length = v.length,
+                    width = v.width,
+                    height = 3.0,
+                    debugPoly = false,
+                    options = {
+                        {
+                            type = "client",
+                            action = opts.action,
+                            icon = opts.icon,
+                            label = opts.label,
+                        },
+                    },
+                })
             end
-            for k, v in pairs(Config.ClothingRooms) do
-                local action
-                if v.isGang then
-                    action = function()
-                        customCamLocation = v.cameraLocation
-                        local gradeLevel = PlayerData.gang.grade.level
-                        getOutfits(gradeLevel, Config.Outfits[v.requiredJob])
-                    end
-                elseif not QBCore.Shared.QBJobsStatus then
-                    action = function()
-                        customCamLocation = v.cameraLocation
-                        local gradeLevel = PlayerData.job.grade.level
-                        getOutfits(gradeLevel, Config.Outfits[v.requiredJob])
-                    end
-                else break end --this break is important if QBJobsStatus is true then the reste of the code in this loop does not need to run.
-
+        end
+        for k, v in pairs(Config.ClothingRooms) do
+            local action
+            if v.isGang then
+                action = function()
+                    customCamLocation = v.cameraLocation
+                    local gradeLevel = PlayerData.gang.grade.level
+                    getOutfits(gradeLevel, Config.Outfits[v.requiredJob])
+                end
+            elseif not QBCore.Shared.QBJobsStatus then
+                action = function()
+                    customCamLocation = v.cameraLocation
+                    local gradeLevel = PlayerData.job.grade.level
+                    getOutfits(gradeLevel, Config.Outfits[v.requiredJob])
+                end
+            else break end --this break is important if QBJobsStatus is true then the reste of the code in this loop does not need to run.
+            if Config.UseTarget then
                 exports['qb-target']:AddBoxZone('clothing_' .. v.requiredJob .. k, v.coords, v.length, v.width, {
                     name = 'clothing_' .. v.requiredJob .. k,
                     debugPoly = false,
@@ -1715,8 +1691,28 @@ function loadStores()
                     },
                     distance = 3
                 })
+            else
+                exports['qb-interact']:addInteractZone({
+                    name = 'clothing_' .. v.requiredJob .. k,
+                    coords = v.coords,
+                    length = v.length,
+                    width = v.width,
+                    height = 3.0,
+                    debugPoly = false,
+                    options = {
+                        {
+                            type = "client",
+                            action = action,
+                            icon = "fas fa-sign-in-alt",
+                            label = Lang:t("menu.character"),
+                            job = v.requiredJob
+                        },
+                    },
+                })
             end
-	    for k, v in pairs(Config.OutfitChangers) do
+        end
+        for k, v in pairs(Config.OutfitChangers) do
+            if Config.UseTarget then
                 exports['qb-target']:AddBoxZone('OutfitChangers_'..k, v.coords, v.length, v.width, {
                     name = 'OutfitChangers_'..k,
                     debugPoly = false,
@@ -1733,125 +1729,31 @@ function loadStores()
                     },
                     distance = 3
                 })
-            end
-        end)
-    else
-        CreateThread(function()
-            local zones = {}
-            local roomZones = {}
-            for _, v in pairs(Config.Stores) do
-                zones[#zones+1] = BoxZone:Create(
-                    v.coords, v.length, v.width, {
-                    name = v.shopType,
-                    minZ = v.coords.z - 2,
-                    maxZ = v.coords.z + 2,
+            else
+                exports['qb-interact']:addInteractZone({
+                    name = 'OutfitChangers_'..k,
+                    coords = v.coords,
+                    length = v.length,
+                    width = v.width,
+                    height = 3.0,
                     debugPoly = false,
+                    options = {
+                        {
+                            type = "client",
+                            event = "qb-clothing:client:openOutfitMenu",
+                            icon = "fas fa-sign-in-alt",
+                            label = Lang:t("store.outfitchanger")
+                        }
+                    },
                 })
             end
-
-            for _, v in pairs(Config.OutfitChangers) do
-                zones[#zones+1] = BoxZone:Create(
-                    v.coords, v.length, v.width, {
-                    name = v.shopType,
-                    minZ = v.coords.z - 2,
-                    maxZ = v.coords.z + 2,
-                    debugPoly = false,
-                })
-            end
-
-            for k,v in pairs(Config.ClothingRooms) do
-                roomZones[#roomZones+1] = BoxZone:Create(
-                    v.coords, v.length, v.width, {
-                    name = 'ClothingRooms_' .. k,
-                    minZ = v.coords.z - 2,
-                    maxZ = v.coords.z + 2,
-                    debugPoly = false,
-                })
-            end
-
-            local clothingCombo = ComboZone:Create(zones, {name = "clothingCombo", debugPoly = false})
-            clothingCombo:onPlayerInOut(function(isPointInside, _, zone)
-                if isPointInside then
-                    zoneName = zone.name
-                    inZone = true
-                    if zoneName == 'surgeon' then
-                        exports['qb-core']:DrawText('[E] - '..Lang:t("store.surgeon"), 'left')
-                    elseif zoneName == 'clothing' then
-                        exports['qb-core']:DrawText('[E] - '..Lang:t("store.clothing"), 'left')
-                    elseif zoneName == 'barber' then
-                        exports['qb-core']:DrawText('[E] - '..Lang:t("store.barber"), 'left')
-                    elseif zoneName == 'outfit' then
-                        exports['qb-core']:DrawText('[E] - '..Lang:t("store.outfitchanger"), 'left')
-                    end
-                else
-                    inZone = false
-                    exports['qb-core']:HideText()
-                end
-            end)
-                    if PlayerData.gang and PlayerData.gang.name or (not QBCore.Shared.QBJobsStatus and PlayerData.job.name) then
-                        local clothingRoomsCombo = ComboZone:Create(roomZones, {name = "clothingRoomsCombo", debugPoly = false})
-                        clothingRoomsCombo:onPlayerInOut(function(isPointInside, _, zone)
-                            if isPointInside then
-                                local zoneID = tonumber(QBCore.Shared.SplitStr(zone.name, "_")[2])
-                                local job = Config.ClothingRooms[zoneID].isGang and PlayerData.gang.name or (not QBCore.Shared.QBJobsStatus and PlayerData.job.name)
-                                if (job == Config.ClothingRooms[zoneID].requiredJob) then
-                                    zoneName = zoneID
-                                    inZone = true
-                                    exports['qb-core']:DrawText('[E] - '..Lang:t("store.clothing"), 'left')
-                                end
-                            else
-                                inZone = false
-                                exports['qb-core']:HideText()
-                            end
-                        end)
-                    end
-        end)
-        -- Clothing Thread
-        CreateThread(function ()
-            Wait(1000)
-            while true do
-                local sleep = 1000
-                if inZone then
-                    sleep = 5
-                    if zoneName == 'surgeon' then
-                        if IsControlJustReleased(0, 38) then
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "character", label = Lang:t("menu.features"), selected = true},
-                            })
-                        end
-                    elseif zoneName == 'clothing' then
-                        if IsControlJustReleased(0, 38) then
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "clothing", label = Lang:t("menu.character"), selected = true},
-                                {menu = "accessoires", label = Lang:t("menu.accessoires"), selected = false}
-                            })
-                        end
-                    elseif zoneName == 'barber' then
-                        if IsControlJustReleased(0, 38) then
-                            customCamLocation = nil
-                            openMenu({
-                                {menu = "hair", label = Lang:t("menu.hair"), selected = true},
-                            })
-                        end
-                    elseif zoneName == 'outfit' then
-                        if IsControlJustReleased(0, 38) then
-                            customCamLocation = nil
-                            TriggerEvent('qb-clothing:client:openOutfitMenu')
-                        end
-                    elseif not QBCore.Shared.QBJobsStatus then
-                        if IsControlJustReleased(0, 38) then
-                            local clothingRoom = Config.ClothingRooms[zoneName]
-                            customCamLocation = clothingRoom.cameraLocation
-
-                            local gradeLevel = clothingRoom.isGang and PlayerData.gang.grade.level or (not QBCore.Shared.QBJobsStatus and PlayerData.job.grade.level)
-                            getOutfits(gradeLevel, Config.Outfits[clothingRoom.requiredJob])
-                        end
-                    end
-                end
-                Wait(sleep)
-            end
-        end)
-    end
+        end
+    end)
 end
+AddEventHandler('onResourceStart', function(resourceName)
+    if GetCurrentResourceName() ~= resourceName then return end
+    if PlayerPedId() then
+        PlayerData = QBCore.Functions.GetPlayerData()
+        loadStores()
+    end
+end)
